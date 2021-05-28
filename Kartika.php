@@ -1,4 +1,5 @@
 <?php
+<--Bagian yang diedit-->
 header('Content-Type: application/json');
 $conn = mysqli_connect("localhost", "root", "", "pmb_kartikaameliarahmawati");
 $sqlQuery = "SELECT Monthname(bulan) as bulan, jumlahPendaftar, jumlahDiterima 
